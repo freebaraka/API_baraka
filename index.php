@@ -2,8 +2,8 @@
 require_once 'ClassAutoLoad.php';
 
 //calling the method for myMethod
-$layoutsInstance->welcome();
-$layoutsInstance->heading();
+$layoutsInstance->welcome($conf);
+$layoutsInstance->heading($conf);
 $formsInstance->signup();
-$layoutsInstance->footer();
+$layoutsInstance->footer($conf);
 ?>
