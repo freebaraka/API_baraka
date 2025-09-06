@@ -1,7 +1,7 @@
 <?php
-class user_forms{
-    public function signup_form(){
-        ?>
+class forms{
+    public function signup(){
+        ?><h2>Signup Form BBIT</h2>
         <form action="submit_signup.php" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required><br><br>
