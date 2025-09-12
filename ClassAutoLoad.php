@@ -3,7 +3,8 @@ require_once 'conf.php';
 
 $directory =[
     'Layouts',
-    'Forms'
+    'Forms',
+    'Global'
 ];
 
 spl_autoload_register(function($className) use ($directory){
@@ -17,5 +18,6 @@ spl_autoload_register(function($className) use ($directory){
 });
 
 //Create various instances to test autoloading
+$ObjSendMail = new SendMail();
 $layoutsInstance = new layouts();
 $formsInstance = new forms();
