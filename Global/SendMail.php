@@ -14,6 +14,7 @@ public function Send_Mail($conf, $mailCont){
         $mail = new PHPMailer(true);
 
 try {
+    
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_OFF;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
