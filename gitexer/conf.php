@@ -2,7 +2,7 @@
 //Site configuration
 $conf['site_name'] = "BBIT DevOps";
 $conf['site_email'] = "info@bbit.edu";
-$conf['site_url'] = "http://localhost/API_baraka";
+$conf['site_url'] = "http://localhost/API_baraka/Plugins/PHPMailer/mail.php";
 
 //Site language
 $conf['language'] = "en";
